@@ -8,7 +8,7 @@ const Constant = require("./Constants");
 app.use(logger('dev'));
 app.use(cors());
 app.get("/", (_, res) => {
-  res.redirect('https://etuong.github.io/cards-for-humanity/');
+  res.redirect('https://REEEee42069.github.io/cards-for-humanity/');
 });
 app.use(function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*"); // Update to match the domain you will make the request from
@@ -23,7 +23,7 @@ server.listen(port, () => {
 
 const io = require('socket.io')(server, {
   cors: {
-    origin: ["http://localhost:8080", "https://etuong.github.io"],
+    origin: ["http://localhost:8080", "https://REEEee42069.github.io"],
     credentials: true
   },
   transports: ['polling', 'websocket'],
