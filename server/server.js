@@ -8,7 +8,7 @@ const Constant = require("./Constants");
 app.use(logger('dev'));
 app.use(cors());
 app.get("/", (_, res) => {
-  res.redirect('https://REEEee42069.github.io/cards-for-humanity/');
+  res.redirect('https://REEEee42069.github.io/school-cah/');
 });
 app.use(function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*"); // Update to match the domain you will make the request from
